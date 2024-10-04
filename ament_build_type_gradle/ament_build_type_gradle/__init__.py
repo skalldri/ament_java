@@ -27,7 +27,7 @@ from ament_build_type_gradle.templates import get_environment_hook_classpath_tem
 from ament_package.templates import configure_string
 from ament_package.templates import get_package_level_template_names
 
-from ament_tools.helper import extract_argument_group
+from osrf_pycommon.cli_utils.common import extract_argument_group
 from ament_tools.build_type import BuildAction
 from ament_tools.build_type import BuildType
 from ament_tools.build_types.common import expand_package_level_setup_files
